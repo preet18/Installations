@@ -1,0 +1,13 @@
+INSTALL
+
+1. nvm install stable 
+2. sudo apt-get install nodejs
+3. sudo apt-get install npm
+
+UNINSTALL
+1. sudo apt-get remove nodejs
+2. sudo apt-get autoremove
+3. sudo rm -rf /usr/local/bin/npm /usr/local/share/man/man1/node* /usr/local/lib/dtrace/node.d ~/.npm ~/.node-gyp /opt/local/bin/node opt/local/include/node /opt/local/lib/node_modules      
+4. sudo rm -rf /usr/local/lib/node*                                                                                 
+5. sudo rm -rf /usr/local/include/node*                                                                         
+6. sudo rm -rf /usr/local/bin/node*                                                     
